@@ -7,7 +7,6 @@ var user1 Users
 var user2 Users
 
 func main() {
-
 	user1 = Users{"1", "tiq", "2412"}
 	user2 = Users{"2", "tiqdesign", "3461"}
 	userData = [2]Users{user1, user2}
@@ -21,7 +20,6 @@ func main() {
 		fmt.Println("Şifre:", userData[1].password)*/
 	fmt.Println("------------------------------------")
 	printUsers()
-
 }
 
 type Users struct {
